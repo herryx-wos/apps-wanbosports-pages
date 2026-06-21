@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万博体育 | 站点介绍</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', 'Times New Roman', '宋体', serif;
+            background-color: #f5f0eb;
+            color: #2e2a27;
+            line-height: 1.75;
+        }
+
+        .page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2.5rem 1.2rem 3.5rem;
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-top: 0.2rem;
+            margin-bottom: 0.3rem;
+            border-left: 6px solid #b8a28d;
+            padding-left: 1rem;
+            color: #2c241e;
+        }
+
+        .hero-sub {
+            font-size: 1.05rem;
+            color: #6b5d52;
+            margin-top: 0.2rem;
+            margin-bottom: 2.2rem;
+            padding-left: 1.6rem;
+            font-style: italic;
+        }
+
+        .intro-para {
+            background: #ffffffd9;
+            padding: 1.6rem 2rem;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+            margin-bottom: 1.8rem;
+            border: 1px solid #e6dbd0;
+        }
+
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.6rem;
+            margin: 2.4rem 0 2.8rem;
+        }
+
+        .card {
+            flex: 1 1 240px;
+            background: #fffcf9;
+            border-radius: 20px;
+            padding: 1.6rem 1.4rem 1.8rem;
+            border: 1px solid #e2d6cb;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+            transition: all 0.2s;
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            color: #3f3228;
+            border-bottom: 2px dotted #d9c8b8;
+            padding-bottom: 0.4rem;
+        }
+
+        .card p {
+            margin: 0.3rem 0;
+            font-size: 0.98rem;
+            color: #3d3730;
+        }
+
+        .card-icon {
+            font-size: 1.8rem;
+            display: inline-block;
+            margin-bottom: 0.3rem;
+            opacity: 0.7;
+        }
+
+        .blockquote-box {
+            background: #ece3db;
+            padding: 1.2rem 1.8rem;
+            border-left: 10px solid #b8a28d;
+            border-radius: 0 12px 12px 0;
+            margin: 1.8rem 0 1.8rem;
+            font-style: normal;
+            color: #3f342b;
+        }
+
+        .blockquote-box strong {
+            color: #4a3c30;
+        }
+
+        .audience-note {
+            background: #fff6ef;
+            padding: 1.2rem 1.8rem;
+            border-radius: 24px 8px 24px 8px;
+            border: 1px solid #dccfc3;
+            margin: 2rem 0;
+        }
+
+        .faq-mini {
+            margin: 2.4rem 0 1.8rem;
+            background: #fffcf7;
+            padding: 1.2rem 1.8rem 1.6rem;
+            border-radius: 12px;
+            border: 1px solid #dcd0c4;
+        }
+
+        .faq-mini details {
+            margin: 0.5rem 0;
+        }
+
+        .faq-mini summary {
+            font-weight: 500;
+            cursor: pointer;
+            color: #3f342b;
+            padding: 0.2rem 0;
+        }
+
+        .faq-mini p {
+            margin: 0.5rem 0 0.2rem 1.2rem;
+            color: #4e443b;
+        }
+
+        .link-sentence {
+            background: #f0e8e0;
+            border-radius: 30px;
+            padding: 0.8rem 1.8rem;
+            display: inline-block;
+            margin: 0.4rem 0 0.8rem;
+        }
+
+        a {
+            color: #735e4c;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            text-decoration-color: #c8b4a2;
+            font-weight: 500;
+            transition: color 0.15s;
+        }
+
+        a:hover {
+            color: #4d3b2b;
+            text-decoration-color: #735e4c;
+        }
+
+        .footer-note {
+            margin-top: 3rem;
+            border-top: 1px solid #dccfc3;
+            padding-top: 1.2rem;
+            font-size: 0.92rem;
+            color: #6b5d52;
+            text-align: center;
+        }
+
+        @media (max-width: 480px) {
+            .page {
+                padding: 1.8rem 0.9rem;
+            }
+            h1 {
+                font-size: 1.9rem;
+                padding-left: 0.8rem;
+            }
+            .intro-para {
+                padding: 1.2rem 1.2rem;
+            }
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>万博体育</h1>
+        <div class="hero-sub">一个关于信息与服务窗口的简要介绍</div>
+
+        <div class="intro-para">
+            <p>对许多人来说，选择一个线上站点往往需要一点耐心和判断。我们在这里想平实地聊聊<strong>万博体育</strong>——一个在体育与娱乐领域逐渐被更多人所知的名字。它并非什么横空出世的传奇，而是经过了一段时间的积累，慢慢在用户之间形成了一些口碑。无论你是初次听说，还是已经有些印象，这篇页面都试图从几个侧面为你提供一点参考。</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>站点定位</h3>
+                <p>万博体育主要面向体育赛事与休闲娱乐场景，提供信息整合与相关服务。它更像一个综合性的内容与功能入口，而非单一工具。</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🧩</div>
+                <h3>常见用途</h3>
+                <p>用户常通过它了解赛事动态、关注比分走势、浏览相关资讯。也有人将其作为日常信息获取的其中一站，界面风格偏向简洁直接。</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">👥</div>
+                <h3>适合人群</h3>
+                <p>对体育赛事有兴趣、习惯线上浏览信息、愿意花一点时间自行判断内容的用户。不论新手还是老手，都可以按自己的节奏使用。</p>
+            </div>
+        </div>
+
+        <div class="blockquote-box">
+            <strong>一点说明</strong>：本页面仅作为信息展示与介绍用途。如果你对平台本身感兴趣，可以自行了解其具体功能与条款。任何使用行为都请基于个人判断与实际情况。
+        </div>
+
+        <div class="audience-note">
+            <p style="margin-top:0;">从使用场景来看，万博体育并不追求喧哗的营销语言，而是试图保持一种相对克制的姿态。它的界面与信息结构偏向实用，没有过多装饰。对于喜欢清爽浏览体验的人来说，这种风格可能更容易接受。当然，每个人对“好用”的定义不同，最好的方式还是亲自体验一下再做判断。</p>
+        </div>
+
+        <div class="faq-mini">
+            <h3 style="margin-top:0; font-weight:400; border-bottom:1px solid #e0d4c8; padding-bottom:6px;">常见疑问摘要</h3>
+            <details>
+                <summary>万博体育主要提供什么？</summary>
+                <p>提供体育类信息浏览、赛事动态及相关服务入口，是一个聚合型的线上站点。具体内容可以访问站点进一步了解。</p>
+            </details>
+            <details>
+                <summary>访问站点需要注意什么？</summary>
+                <p>建议在稳定的网络环境下浏览，并根据个人需要查看相关页面。平台规则与条款以官方说明为准。</p>
+            </details>
+            <details>
+                <summary>这个介绍页面是官方来源吗？</summary>
+                <p>不是。这是一个独立的介绍性页面，旨在提供客观、克制的信息。所有关于平台的实际信息请以 <a href="https://apps-wanbosports.com">万博体育</a> 站内内容为准。</p>
+            </details>
+        </div>
+
+        <div style="margin: 2rem 0 1.8rem;">
+            <p>总而言之，如果你正在寻找一个体育信息与相关服务的线上落脚点，不妨将 <a href="https://apps-wanbosports.com">万博体育</a> 列入你的参考列表。它未必适合所有人，但值得你花几分钟看一看。从我们接触到的反馈来看，多数用户对其信息呈现方式持正面态度，当然最终感受还是因人而异。</p>
+        </div>
+
+        <div style="background:#f7f0e8; border-radius: 40px; padding: 1rem 2rem; margin: 1.8rem 0; border:1px solid #e1d4c6;">
+            <p style="margin: 0.2rem 0;">📌 需要说明的是，本页面仅为独立介绍，与平台官方无直接关联。所有引用与描述均基于公开信息和一般性了解，不构成任何形式的推荐或担保。</p>
+        </div>
+
+        <div class="footer-note">
+            <span>页面内容仅作参考 · 请自行判断 · 2025</span>
+        </div>
+    </div>
+</body>
+</html>
